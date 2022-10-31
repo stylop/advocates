@@ -1,1 +1,1 @@
-web: gunicorn hackathon.wsgi
+web: gunicorn manage.py migrate && gunicorn hackathon.wsgi
